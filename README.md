@@ -43,7 +43,7 @@ Later, for the component to be fully accessible globally within the IO applicati
 
 ```bash
 {
-  "searchZopCode": { # Here is the name to be called in block.json
+  "searchZipCode": { # Here is the name to be called in block.json
     "component": "SearchZipCode" # Here goes the name of the exported component
   },
 }
@@ -55,7 +55,7 @@ After instantiated in interfaces.json, it is ready to be called inside block.jso
 {
   "store.home": { # Here I am giving an example of how to place the component on the home page
     "blocks": [
-      searchZopCode
+      searchZipCode
     ]
   }
 }
